@@ -1,0 +1,135 @@
+/* Styles for hero section */
+
+
+/* Features section */
+
+.feature-section{
+
+    height: 600px;
+    width: 100%;
+
+    background-color: #363941;
+
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Ubuntu Condensed", sans-serif;
+    box-shadow: inset 0px -26px 79px -8px rgba(0, 0, 0, 0.58);
+
+}
+
+.feature-section > .columns-wrapper{
+
+    width: fit-content;
+    display: flex;
+    justify-content: space-between;
+}
+
+.feature-section > .columns-wrapper >.column{
+    display: flex;
+    text-align:  center;
+    border-bottom: 5px solid transparent;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.feature-section > .columns-wrapper >.column-one {
+    display: grid;
+    grid-template-columns: 1fr ;
+    text-align:  center;
+    flex-direction: column;
+    border-bottom: 5px solid transparent;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+
+.feature-section > .columns-wrapper >.column > .featured-img{
+    display: flex;
+    justify-content: space-between;
+    text-align:  center;
+    height: 500px;  
+    
+}
+
+.columns-wrapper > .column-one > .text-one{
+
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.columns-wrapper > .column-one > .text-two{
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+}
+
+
+.columns-wrapper > .column-one > .main-screen-button {
+
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.columns-wrapper > .column-one > .main-screen-button > .button-one > .btn-m-1 {
+
+    
+    color: black;
+    background-color: #4bce79;
+    padding: 10px 25px;
+    font-size: 2em;
+    border: 1px solid #36383f;
+    border-radius: 2px;
+    outline: none;
+    display: flex;
+    justify-content: space-around;
+   
+   
+    
+}
+
+.columns-wrapper > .column-one > .main-screen-button > .button-two > .btn-m-2 {
+
+    display: flex;
+    background-color: black;
+     color: white;
+    padding: 10px 25px;
+    font-size: 2em;
+    border: 1px solid #36383f;
+    border-radius: 2px;
+    outline: none;
+    justify-content: space-around;
+   
+   
+    
+}
+
+.columns-wrapper > .column-one > .main-screen-button > .button-one{
+
+    padding-right: 10px;
+}
+
+.footer-menu-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+    background-color: black;
+    outline: white;
+    outline:inset;
+    outline-width: thin;
+    
+    
+
+}
+
+.footer-menu-wrapper > .code-pen-education >{
+    outline-style: inset;
+}
+
+ 
+
+

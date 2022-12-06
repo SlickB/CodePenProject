@@ -1,0 +1,58 @@
+.navigation-wrapper > .right-column > .Adress-wrapper > .button-create{
+
+   display: flex;
+   justify-content: space-between;
+}
+.navigation-wrapper > .right-column > .Adress-wrapper > .button-login{
+
+    display: flex;
+    justify-content: space-between;
+ }
+
+ .navigation-wrapper > .right-column > .Adress-wrapper > .button-sign{
+
+    display: flex;
+    justify-content: space-between;
+ }
+
+.navigation-wrapper > .right-column > .Adress-wrapper > .button-create > .btn-create{
+    color: white;
+    padding: 10px 25px;
+    font-size: 1em;
+    background-color: #36383f;
+    border: 1px solid #36383f;
+    border-radius: 2px;
+    outline: none;
+    display: flex;
+    justify-content: space-around;
+
+    }
+
+    .navigation-wrapper > .right-column > .Adress-wrapper > .button-login > .btn-login{
+        color: white;
+        padding: 10px 25px;
+        font-size: 1em;
+        background-color: #36383f;
+        border: 1px solid #36383f;
+        border-radius: 2px;
+        outline: none;
+        display: flex;
+        justify-content: space-around;
+    
+        }
+
+        .navigation-wrapper > .right-column > .Adress-wrapper > .button-sign > .btn-sign{
+            color: white;
+            padding: 10px 25px;
+            font-size: 1em;
+            background-color: #36383f;
+            border: 1px solid #36383f;
+            border-radius: 2px;
+            outline: none;
+        
+            }
+
+          
+
+
+
